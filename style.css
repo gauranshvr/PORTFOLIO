@@ -421,20 +421,4 @@ h4 {
   *{
     background-color: rgb(157, 242, 242);
   }
-  .main {
-    width: 50vw;
-    /* background-color: yellow; */
-  }
-  .introContainer {
-    /* background-color: rgb(241, 90, 213); */
-    height: 70vh;
-    width: 60vw;
-    margin: 104px 35px ;
-    display: flex;
-    justify-content: space-around;
-    gap: 100px;
-    /* padding-left: 34px; */
-  }
-  
-  
 }
