@@ -155,7 +155,7 @@ h3 {
   background: rgba(0, 0, 0, 0.3);
 }
 .item img {
-  width: 100%;
+  width: 60%;
   height: 100%;
   object-fit: cover;
   object-position: center;
@@ -419,7 +419,22 @@ h4 {
 }
 @media (max-width:800px){
   *{
-    background-color: aqua;
+    background-color: rgb(157, 242, 242);
   }
+  .main {
+    width: 50vw;
+    /* background-color: yellow; */
+  }
+  .introContainer {
+    /* background-color: rgb(241, 90, 213); */
+    height: 70vh;
+    width: 60vw;
+    margin: 104px 35px ;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    /* padding-left: 34px; */
+  }
+  
   
 }
