@@ -60,6 +60,8 @@ nav > ul {
 }
 .main {
   width: 90vw;
+
+
   /* background-color: yellow; */
 }
 .introContainer {
@@ -103,7 +105,8 @@ nav > ul {
 }
 .devpic img {
   /* width: 370px; */
-  height: 70vh;
+  height: 75vh;
+  width: 40vw;
 }
 .container1{
   height:90vh ;
@@ -155,7 +158,7 @@ h3 {
   background: rgba(0, 0, 0, 0.3);
 }
 .item img {
-  width: 60%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
@@ -215,9 +218,18 @@ h3 {
   /* font-weight: bold; */
   /* background-color: rgb(103, 103, 234); */
 }
+.main1{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+  
+}
 .contactform {
   padding: 0px 34px;
   padding-top: 60px;
+ 
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -415,10 +427,119 @@ h4 {
   text-align: center;
 }
 .email{
-  padding-left: 700px;
+
+  margin-top: 200px;
+  /* font-size: 30px; */
+  /* background-color: bisque; */
+
+  /* padding-left: 700px; */
+  /* width: ; */
 }
-@media (max-width:800px){
-  *{
-    background-color: rgb(157, 242, 242);
+/* Your existing CSS code goes here */
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 800px) {
+  /* Sidebar styles */
+  .sidebar {
+    height: auto;
+    position: static;
+    width: 100%;
+    background-color: rgb(184, 173, 173);
+  }
+
+  .sidebar nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar nav li {
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  /* Main content styles */
+  .main {
+    width: 100%;
+  }
+
+  .introContainer {
+    width: 100%;
+    margin: 40px auto;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .devpic img {
+    height: auto;
+    width: 70%;
+  }
+
+  .container1 {
+    height: auto;
+  }
+
+  /* Project section styles */
+  .project-pics {
+    height: auto;
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .projects {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .pro-title {
+    width: 100%;
+  }
+
+  /* Certificates section styles */
+  .certificates-main {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .parents {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .cimages {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  /* Contact section styles */
+  .container3 {
+    padding-bottom: 40px;
+  }
+
+  .contactform form div input,
+  .contactform form div select {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .email {
+    margin-top: 20px;
+  }
+
+  /* Platform section styles */
+  .platform {
+    padding: 1rem 0;
+  }
+
+  .social-links {
+    margin-bottom: 0.8rem;
+  }
+
+  .platform span {
+    margin-top: 0.5rem;
   }
 }
